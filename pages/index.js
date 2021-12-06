@@ -8,10 +8,7 @@ export default function Home() {
       <Head>
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
-    <div id="consent-banner"></div>
-<div id="teconsent">
-  <script type="text/javascript" async="async" src="https://consent.trustarc.com/v2/notice/icqx1k"></script>
-</div>
+    
       </Head>
 
       <main>
@@ -19,6 +16,10 @@ export default function Home() {
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
+    <div id="consent-banner"></div>
+<div id="teconsent">
+  <script type="text/javascript" async="async" src="https://consent.trustarc.com/v2/notice/icqx1k"></script>
+</div>
       </main>
 
       <Footer />
