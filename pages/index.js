@@ -8,6 +8,10 @@ export default function Home() {
       <Head>
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
+    <div id="consent-banner"></div>
+<div id="teconsent">
+  <script type="text/javascript" async="async" src="https://consent.trustarc.com/v2/notice/icqx1k"></script>
+</div>
       </Head>
 
       <main>
